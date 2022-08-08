@@ -6,9 +6,9 @@ JWT stands for JSON Web Token digitally signed using a secret key by a token pro
 
 JWT consists of three parts:
 
-Header: encoded data of the token type and the algorithm used to sign the data. ```
-Payload: encoded data of claims intended to share.
-Signature: created by signing (encoded header + encoded payload) using a secret key.
+1.  Header: encoded data of the token type and the algorithm used to sign the data.<br/>
+2.  Payload: encoded data of claims intended to share.<br/>
+3.  Signature: created by signing (encoded header + encoded payload) using a secret key.<br/><br/>
 Here I am going to use Visual Studio 2022 and SQL Server 2015.
 
 
